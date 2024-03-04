@@ -7,9 +7,7 @@
 Answer
 
 ```sql
-SELECT member_id, members.name AS member, committee_id, committees.name AS committee
-FROM members
-INNER JOIN committees ON members.name = committees.name;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -32,9 +30,7 @@ Output
 Answer
 
 ```sql
-SELECT member_id, members.name AS member, committee_id, committees.name AS committee
-FROM members
-LEFT JOIN committees ON members.name = committees.name;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -59,10 +55,7 @@ Output
 Answer
 
 ```sql
-SELECT member_id, members.name AS member, committee_id, committees.name AS committee
-FROM members
-LEFT JOIN committees ON members.name = committees.name
-WHERE committees.committee_id IS NULL;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -84,9 +77,7 @@ Output
 Answer
 
 ```sql
-SELECT member_id, members.name AS member, committee_id, committees.name AS committee
-FROM members
-RIGHT JOIN committees ON members.name = committees.name;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -110,10 +101,7 @@ Output
 Answer
 
 ```sql
-SELECT member_id, members.name AS member, committee_id, committees.name AS committee
-FROM members
-RIGHT JOIN committees ON members.name = committees.name
-WHERE members.member_id IS NULL;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
