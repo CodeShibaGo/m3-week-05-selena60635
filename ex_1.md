@@ -1,5 +1,6 @@
 # Exercise 1
 
+
 ## ex_01
 
 寫出可以得到下方結果的 SQL 語句
@@ -7,8 +8,7 @@
 Answer
 
 ```sql
-SELECT lastName, firstName, jobTitle FROM employees
-WHERE jobTitle = 'Sales Rep';
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -45,8 +45,7 @@ Output
 Answer
 
 ```sql
-SELECT lastName, firstName, jobTitle, officeCode FROM employees
-WHERE firstname = 'Leslie';
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -68,8 +67,7 @@ Output
 Answer
 
 ```sql
-SELECT firstName, lastName, officeCode FROM employees
-WHERE officeCode < 4;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -92,6 +90,7 @@ Output
 10 rows in set (0.00 sec)
 ```
 
+
 ## ex_04
 
 寫出可以得到下方結果的 SQL 語句
@@ -99,19 +98,7 @@ Output
 Answer
 
 ```sql
-SELECT contactLastname, contactFirstname
-FROM customers
-ORDER BY 1 DESC,
-CASE
-	WHEN contactLastName = 'Young' THEN
-		CASE
-			WHEN contactFirstName = 'Jeff' THEN 1
-			WHEN contactFirstName = 'Julie' THEN 2
-			WHEN contactFirstName = 'Mary' THEN 3
-			ELSE 4
-		END
-	ELSE 5
-END;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -132,6 +119,7 @@ Output
 ....
 ```
 
+
 ## ex_05
 
 寫出可以得到下方結果的 SQL 語句
@@ -139,9 +127,7 @@ Output
 Answer
 
 ```sql
-SELECT lastname, firstname, officeCode
-FROM employees
-WHERE officeCode in (6, 7);
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -160,6 +146,7 @@ Output
 6 rows in set (0.00 sec)
 ```
 
+
 ## ex_06
 
 寫出可以得到下方結果的 SQL 語句
@@ -167,9 +154,7 @@ Output
 Answer
 
 ```sql
-SELECT lastname, firstname, jobTitle, officeCode
-FROM employees
-WHERE officeCode = 1 AND jobTitle = 'Sales Rep';
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -184,6 +169,7 @@ Output
 2 rows in set (0.00 sec)
 ```
 
+
 ## ex_07
 
 寫出可以得到下方結果的 SQL 語句
@@ -191,9 +177,7 @@ Output
 Answer
 
 ```sql
-SELECT DISTINCT lastname
-FROM employees
-ORDER BY lastname;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -218,6 +202,7 @@ Output
 19 rows in set (0.01 sec)
 ```
 
+
 ## ex_08
 
 寫出可以得到下方結果的 SQL 語句
@@ -225,9 +210,7 @@ Output
 Answer
 
 ```sql
-SELECT customername, country, state
-FROM customers
-WHERE country = 'USA' AND state = 'CA';
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -258,9 +241,7 @@ Output
 Answer
 
 ```sql
-SELECT customername, country, state, creditlimit
-FROM customers
-WHERE creditlimit > 100000 AND country = 'USA' AND state = 'CA';
+/* SOME SQL STATEMENT  */
 ```
 
 Output
@@ -283,9 +264,7 @@ Output
 Answer
 
 ```sql
-SELECT officeCode, city, phone, country
-FROM offices
-WHERE officeCode < 5;
+/* SOME SQL STATEMENT  */
 ```
 
 Output
