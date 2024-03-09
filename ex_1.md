@@ -46,7 +46,7 @@ Answer
 
 ```sql
 SELECT lastName, firstName, jobTitle, officeCode FROM employees
-WHERE firstname = 'Leslie';
+WHERE firstName = 'Leslie';
 ```
 
 Output
